@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Poppins:wght@300&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -7,10 +7,10 @@
 }
 
 body {
-  background: #1e130c;
+  background: #200122;
   /* fallback for old browsers */
   /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #9a8478, #1e130c);
+  background: linear-gradient(to left, #6f0000, #200122);
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   font-family: "Poppins", sans-serif;
 }
@@ -21,6 +21,8 @@ body {
   display: block;
   color: #e8e2e2;
   text-align: center;
+  letter-spacing: 5px;
+  font-family: "Permanent Marker", cursive;
 }
 .header-container h1 {
   font-size: 4em;
@@ -51,7 +53,7 @@ body {
   height: 40px;
   padding-left: 10px;
   font-family: "Poppins", sans-serif;
-  font-size: 1.2em;
+  font-size: 1.1em;
   background-color: transparent;
   outline: none;
   border-bottom: 1px solid #e8e2e2;
@@ -135,11 +137,11 @@ body {
 .li-style {
   padding: 7px 10px 7px 10px;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 1em;
 }
 
 .edittask-input {
-  font-size: 16px;
+  font-size: 1em;
   color: maroon;
   font-family: "Poppins", sans-serif;
   width: 360px;
@@ -150,9 +152,9 @@ body {
   padding-left: 5px;
 }
 .edittask-input:focus {
-  background-color: gray;
-  color: #e8e2e2;
-  opacity: 0.8;
+  background-color: lightgray;
+  color: #1d1c1c;
+  opacity: 0.5;
 }
 
 h4 {
@@ -161,5 +163,7 @@ h4 {
   left: 39%;
   color: #e8e2e2;
   text-align: center;
-  opacity: 0.2;
+  opacity: 0.5;
+  text-transform: uppercase;
+  font-size: 14px;
 }/*# sourceMappingURL=styles.css.map */
